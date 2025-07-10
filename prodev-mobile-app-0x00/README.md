@@ -1,50 +1,29 @@
-# Welcome to your Expo app 👋
+# First Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Scaffolding Steps
 
-## Get started
+1. Created directory prodev-mobile-app-0x00
+2. Ran `npx create-expo-app@latest .`
+3. Modified app/(tabs)/index.tsx
+4. Changed "Welcome!" to "** First App Created**"
+5. Tested on device successfully
 
-1. Install dependencies
+## Reset Project Observations
 
-   ```bash
-   npm install
-   ```
+When running `npm run reset-project`:
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Files Moved (not deleted)**:
+  - Custom app/(tabs)/index.tsx moved to app-example/app/(tabs)/index.tsx
+  - Modified constants/Colors.tsx moved to app-example/constants/Colors.tsx
+  - All custom modifications preserved in app-example/ directory
+- **Cleanup Occurred**:
+  - Original app/ directory restored to default template
+  - Clean slate provided for fresh development
+  - No actual file deletion - everything backed up
+- **Template Restoration**:
+  - Default Expo Router template fully restored
+  - Original "Welcome" screen and styling returned
+  - Project ready for new development
+- **Backup Created**:
+  - app-example/ folder contains all previous work
+  - Can reference or restore custom code if needed
